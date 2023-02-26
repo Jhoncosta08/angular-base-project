@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+
+/*START CHANGE DEFAULT BOOTSTRAP STYLES*/
+
+.col, .row {
+  padding: 0 !important;
+}
+
+.form-group , p {
+  margin: 0 !important;
+}
+
+button:focus, button:active, button:hover, button:target, input:focus, input:active, input:hover, input:target {
+  outline: 0;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+
+/*END CHANGE DEFAULT BOOTSTRAP STYLES*/
+
+/*START GLOBAL APP STYLES*/
+
+/*START GLOBAL APP FONT STYLES*/
+/*p, h1, h2, h3, h4, h5, h6, label, button, span, a, small, ul, table .btn {*/
+/*  font-family: 'Custom', Fallback, sans-serif;*/
+/*}*/
+
+/*::placeholder {*/
+/*  font-family: 'Custom', Fallback, sans-serif;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Custom';*/
+/*  src: url('./assets/fonts/CalibreRegular.otf') format('opentype');*/
+/*}*/
+/*END GLOBAL APP FONT STYLES*/
+
+/*END GLOBAL APP STYLES*/
