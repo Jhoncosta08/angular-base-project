@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {DashboardComponent} from './views/dashboard/dashboard.component';
 import {NotFoundComponent} from './views/not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: DashboardComponent
+    path: '', loadChildren: () => import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule),
   },
   {
     //Always leave this route at the end.
