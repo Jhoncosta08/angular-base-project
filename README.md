@@ -1,7 +1,7 @@
 # Project title here
 
 ## About the project
->Project description here...
+>Base project in Angular with Bootstrap installed and configured.
 
 ## Main technologies used in the project
 >* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
